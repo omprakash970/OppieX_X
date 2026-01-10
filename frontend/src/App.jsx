@@ -1,13 +1,14 @@
 import { useState } from 'react'
-
+import HomePage from './landing_page/Home/HomePage'
 
 
 function App() {
   return(
    <>
-   <h1>Hello World!</h1>
+    <HomePage />
+    
    </>
-  )
+  );
 
   
 }
