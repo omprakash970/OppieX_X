@@ -4,7 +4,7 @@ function Hero() {
     <div className="container p-5" mb-5>
       <div className="row text-center">
         <img src="./public/Media/homeHero.png" alt="Hero Image" className="mb-5"></img>
-        <h1 className="mt-5">
+        <h1 className="mt-5 fs-3">
           Welcome to OppieX - Your Gateway to Seamless Trading, Owned by your Oppie 🤗!
         </h1>
         <p className="mt-3">
