@@ -1,0 +1,13 @@
+node_modules
+.dist
+build
+dist
+coverage
+
+# Vite public assets (often vendor files)
+public
+
+# Lockfiles (optional)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml

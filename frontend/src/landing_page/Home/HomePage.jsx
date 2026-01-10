@@ -8,17 +8,17 @@ import Education from "./Education";
 import OpenAccount from "../OpenAccount";
 import Footer from "../Footer";
 function HomePage() {
-    return (
-        <>
-        <NavBar />
-        <Hero />
-        <Awards />  
-        <Stats />
-        <Pricing />
-        <Education />
-        <OpenAccount />
-        <Footer />
-        </>
-    );
+  return (
+    <>
+      <NavBar />
+      <Hero />
+      <Awards />
+      <Stats />
+      <Pricing />
+      <Education />
+      <OpenAccount />
+      <Footer />
+    </>
+  );
 }
 export default HomePage;
