@@ -1,7 +1,16 @@
 import React from "react";
 function Stats() {
     return (
-        <h1>Stats Page</h1>
+       <div className="container">
+        <div className="row">
+            <div className="col-6">
+
+            </div>
+            <div className="col-6">
+
+            </div>
+        </div>
+       </div>
     );
 }
 export default Stats;
