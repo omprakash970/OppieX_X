@@ -10,6 +10,21 @@ body {
   font-family: var(--opx-font-family);
 }
 
+/* Global link styles */
+a,
+.nav-link {
+  color: #666;
+  text-decoration: none;
+}
+
+a:hover,
+.nav-link:hover,
+a:focus,
+.nav-link:focus {
+  color: #387ed1;
+  text-decoration: none;
+}
+
 /* Optional utility classes for specific weights/styles */
 .poppins-thin {
   font-weight: 100;
