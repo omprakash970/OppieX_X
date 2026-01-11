@@ -3,130 +3,33 @@ function Hero() {
     <>
       <section style={{ backgroundColor: "#F6F6F6", width: "100%" }}>
         <div className="container py-5">
-          <div
-            className="line"
-            style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}
-          >
-            <h1 className="mb-3">Support Portal</h1>
-            <button style={{ padding: "8px", borderRadius: "8px", backgroundColor: "#397DD0" }}>
-              My Tickets
-            </button>
-          </div>
-
-          <div className="input-group input-group-lg p-5">
-            <span
-              className="input-group-text"
-              style={{ display: "flex", alignItems: "center", justifyContent: "center" }}
-            >
-              <i className="fa fa-search" aria-hidden="true"></i>
-            </span>
-            <input
-              type="text"
-              className="form-control"
-              aria-label="Search"
-              placeholder="Search for help..."
-            />
-          </div>
-
-          <p className="text-muted">Find answers, create tickets, and reach our team.</p>
-        </div>
-      </section>
-      <div className="container">
-        <div className="row">
-          <div className="col-8 p-5">
-            <div class="accordion" id="accordionExample">
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button
-                    class="accordion-button"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseOne"
-                    aria-expanded="true"
-                    aria-controls="collapseOne"
-                  >
-                    Accordion Item #1
-                  </button>
-                </h2>
-                <div
-                  id="collapseOne"
-                  class="accordion-collapse collapse show"
-                  data-bs-parent="#accordionExample"
-                >
-                  <div class="accordion-body">
-                   <ul>
-                    <li><a href="#">Resident Individual</a></li>
-                    <li><a href="#">Minor</a></li>
-                    <li><a href="#">Non Resident Indian (NRI)</a></li>
-                    <li><a href="#">Company, Partnership, HUF and LLP</a></li>
-                    <li><a href="#">Glossary</a></li>
-                   </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button
-                    class="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseTwo"
-                    aria-expanded="false"
-                    aria-controls="collapseTwo"
-                  >
-                    Accordion Item #2
-                  </button>
-                </h2>
-                <div
-                  id="collapseTwo"
-                  class="accordion-collapse collapse"
-                  data-bs-parent="#accordionExample"
-                >
-                  <div class="accordion-body">
-                    <strong>This is the second item’s accordion body.</strong> It is hidden by
-                    default, until the collapse plugin adds the appropriate classes that we use to
-                    style each element. These classes control the overall appearance, as well as the
-                    showing and hiding via CSS transitions. You can modify any of this with custom
-                    CSS or overriding our default variables. It’s also worth noting that just about
-                    any HTML can go within the <code>.accordion-body</code>, though the transition
-                    does limit overflow.
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button
-                    class="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseThree"
-                    aria-expanded="false"
-                    aria-controls="collapseThree"
-                  >
-                    Accordion Item #3
-                  </button>
-                </h2>
-                <div
-                  id="collapseThree"
-                  class="accordion-collapse collapse"
-                  data-bs-parent="#accordionExample"
-                >
-                  <div class="accordion-body">
-                    <strong>This is the third item’s accordion body.</strong> It is hidden by
-                    default, until the collapse plugin adds the appropriate classes that we use to
-                    style each element. These classes control the overall appearance, as well as the
-                    showing and hiding via CSS transitions. You can modify any of this with custom
-                    CSS or overriding our default variables. It’s also worth noting that just about
-                    any HTML can go within the <code>.accordion-body</code>, though the transition
-                    does limit overflow.
-                  </div>
-                </div>
-              </div>
+          <div className="d-flex flex-column flex-md-row align-items-md-center justify-content-between gap-3">
+            <div>
+              <h1 className="mb-2">Support Portal</h1>
+              <p className="text-muted mb-0">Find answers, create tickets, and reach our team.</p>
+            </div>
+            <div>
+              <a href="#" className="btn btn-primary">
+                My tickets
+              </a>
             </div>
           </div>
-          <div className="col-4"></div>
+
+          <div className="mt-4">
+            <div className="input-group">
+              <span className="input-group-text bg-white">
+                <i className="fa fa-search" aria-hidden="true"></i>
+              </span>
+              <input
+                type="text"
+                className="form-control"
+                placeholder="Eg: How do I open my account, How do I activate F&O..."
+                aria-label="Search support"
+              />
+            </div>
+          </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }
