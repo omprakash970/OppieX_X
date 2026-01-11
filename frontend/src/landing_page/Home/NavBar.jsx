@@ -3,7 +3,6 @@ function NavBar() {
     <>
       <nav className="navbar navbar-expand-lg border-bottom bg-white ">
         <div className="container">
-          
           {/* Logo */}
           <a className="navbar-brand" href="#">
             <img
@@ -11,6 +10,7 @@ function NavBar() {
               alt="OppieX Logo"
               style={{ height: "35px" }}
             />
+          
           </a>
 
           {/* Mobile toggle */}
@@ -27,26 +27,35 @@ function NavBar() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto align-items-center gap-3">
               <li className="nav-item">
-                <a className="nav-link" href="#">Signup</a>
+                <a className="nav-link" href="#">
+                  Signup
+                </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">About</a>
+                <a className="nav-link" href="#">
+                  About
+                </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Products</a>
+                <a className="nav-link" href="#">
+                  Products
+                </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Pricing</a>
+                <a className="nav-link" href="#">
+                  Pricing
+                </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Support</a>
+                <a className="nav-link" href="#">
+                  Support
+                </a>
               </li>
               <li className="nav-item">
-                <i class="fa fa-list-ul" aria-hidden="true"></i>
+                <i className="fa fa-bars" aria-hidden="true"></i>
               </li>
             </ul>
           </div>
-
         </div>
       </nav>
     </>
