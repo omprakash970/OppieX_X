@@ -1,11 +1,16 @@
 import React from "react";
+import Hero from "./Hero";
+import LeftSection from "./LeftSection";
+import Footer from "../Footer";
 
 function ProductsPage() {
   return (
-    <div className="container py-5">
-      <h1 className="mb-3">Products</h1>
-      <p className="text-muted">This is the Products page placeholder.</p>
-    </div>
+    <>
+      <Hero />
+      <LeftSection />
+
+      <Footer />
+    </>
   );
 }
 
