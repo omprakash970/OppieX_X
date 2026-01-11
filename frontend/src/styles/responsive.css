@@ -1,0 +1,62 @@
+/* Global responsive enhancements */
+* {
+  box-sizing: border-box;
+}
+
+img,
+video,
+canvas,
+svg {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsive typography using clamp */
+h1 {
+  font-size: clamp(1.75rem, 2.5vw + 1rem, 3rem);
+}
+h2 {
+  font-size: clamp(1.5rem, 2vw + 0.8rem, 2.5rem);
+}
+h3 {
+  font-size: clamp(1.25rem, 1.5vw + 0.7rem, 2rem);
+}
+h4 {
+  font-size: clamp(1.125rem, 1.2vw + 0.6rem, 1.5rem);
+}
+h5 {
+  font-size: clamp(1rem, 1vw + 0.5rem, 1.25rem);
+}
+h6 {
+  font-size: clamp(0.9rem, 0.8vw + 0.45rem, 1rem);
+}
+p {
+  font-size: clamp(0.9rem, 0.5vw + 0.8rem, 1rem);
+}
+
+/* Spacing utilities for sections */
+.section {
+  padding: 32px 0;
+}
+@media (min-width: 992px) {
+  .section {
+    padding: 56px 0;
+  }
+}
+
+/* Footer tweaks */
+.footer-icons a {
+  display: inline-flex;
+  align-items: center;
+}
+.footer-divider {
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  margin: 12px 0;
+}
+
+/* Ensure navbar items wrap nicely on smaller screens */
+@media (max-width: 991.98px) {
+  .navbar-nav {
+    gap: 10px;
+  }
+}

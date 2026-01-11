@@ -1,5 +1,6 @@
-import { useState } from "react";
+
 import HomePage from "./landing_page/Home/HomePage";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (

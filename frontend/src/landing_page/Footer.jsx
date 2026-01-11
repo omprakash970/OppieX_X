@@ -14,11 +14,11 @@ function Footer() {
         {/* centered content */}
         <div className="container" style={{ padding: "30px" }}>
           <div className="row">
-            <div className="col">
+            <div className="col-12 col-md-3">
               <img
                 src="/Media/Gemini_Generated_Image_5b2zim5b2zim5b2z-removebg-preview.png"
                 alt="OppieX Logo"
-                className="mb-3"
+                className="mb-3 img-fluid"
                 style={{ height: "40px" }}
               />
               {/* Social icons */}
@@ -52,7 +52,7 @@ function Footer() {
               </p>
             </div>
 
-            <div className="col">
+            <div className="col-12 col-md-3">
               <p>Account</p>
               <ul style={{ listStyleType: "none", paddingLeft: 0, paddingTop: "10px" }}>
                 <li className="mb-2" style={{ padding: "2px", color: " #666" }}>
@@ -82,7 +82,7 @@ function Footer() {
               </ul>
             </div>
 
-            <div className="col">
+            <div className="col-12 col-md-3">
               <p>Support</p>
               <ul style={{ listStyleType: "none", paddingLeft: 0, paddingTop: "10px" }}>
                 <li className="mb-2" style={{ padding: "2px", color: " #666" }}>
@@ -112,7 +112,7 @@ function Footer() {
               </ul>
             </div>
 
-            <div className="col">
+            <div className="col-12 col-md-3">
               <p>Quick Links</p>
               <ul style={{ listStyleType: "none", paddingLeft: 0, paddingTop: "10px" }}>
                 <li className="mb-2" style={{ padding: "2px", color: " #666" }}>

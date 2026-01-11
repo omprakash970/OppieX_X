@@ -1,25 +1,21 @@
 function Awards() {
   return (
     <div className="container mt-5">
-      <div className="row align-items-start">
-        <div className="col-6">
-          <img
-            src="./public/Media/largestBroker.svg"
-            alt="Awards Image"
-            className="mb-5 img-fluid"
-          />
+      <div className="row align-items-center">
+        <div className="col-12 col-md-6 mb-4 mb-md-0">
+          <img src="/Media/largestBroker.svg" alt="Awards Image" className="img-fluid" />
         </div>
 
-        <div className="col-6 p-5 mt-5">
-          <h1>Largest Stock Broker in India</h1>
+        <div className="col-12 col-md-6 pt-3 pt-md-5 mt-md-3">
+          <h1 className="mb-3">Largest Stock Broker in India</h1>
           <p>
             OppieX is recognized as the largest stock broker in India, providing unparalleled
             trading services to millions of users.
           </p>
 
           <div className="row">
-            <div className="col-6 p-5 ">
-              <ul>
+            <div className="col-12 col-sm-6 pt-2 pt-md-4">
+              <ul className="mb-0">
                 <li>
                   <p>Futures and Options</p>
                 </li>
@@ -32,8 +28,8 @@ function Awards() {
               </ul>
             </div>
 
-            <div className="col-6 p-5">
-              <ul>
+            <div className="col-12 col-sm-6 pt-2 pt-md-4">
+              <ul className="mb-0">
                 <li>
                   <p>Stocks & IPOs</p>
                 </li>
@@ -47,12 +43,7 @@ function Awards() {
             </div>
           </div>
 
-          <img
-            style={{ width: "80%" }}
-            src="./public/Media/pressLogos.png"
-            alt="Awards Badges"
-            className="mt-1 img-fluid"
-          />
+          <img src="/Media/pressLogos.png" alt="Awards Badges" className="mt-3 img-fluid" />
         </div>
       </div>
     </div>

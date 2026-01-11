@@ -2,8 +2,8 @@ import React from "react";
 function Stats() {
   return (
     <div className="container">
-      <div className="row p-5">
-        <div className="col-6 p-5">
+      <div className="row py-4 py-md-5">
+        <div className="col-12 col-md-6 px-3 px-md-5">
           <h1 className="fs-2 mb-5">Trust With Confidence</h1>
           <h3 className="fs-3 mb-3">Customer-first always</h3>
           <p className="text-muted">
@@ -27,16 +27,17 @@ function Stats() {
             actively help you do better with your money.
           </p>
         </div>
-        <div className="col-6">
-          <img src="./public/Media/ecosystem.png" alt="Stats Image" className="img-fluid" />
+        <div className="col-12 col-md-6">
+          <img src="/Media/ecosystem.png" alt="Stats Image" className="img-fluid mb-3 mb-md-4" />
 
           <div className="text-center">
-            <a style={{ textDecoration: "none" }} href="" className="mx-5">
-              Explore our products <i class="fa fa-long-arrow-right" aria-hidden="true"></i>{" "}
+            <a style={{ textDecoration: "none" }} href="" className="mx-3 mx-md-5">
+              Explore our products{" "}
+              <i className="fa fa-long-arrow-right" aria-hidden="true"></i>{" "}
             </a>
 
-            <a style={{ textDecoration: "none" }} href="">
-              Try Kite demo <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+            <a style={{ textDecoration: "none" }} href="" className="mx-3 mx-md-0">
+              Try Kite demo <i className="fa fa-long-arrow-right" aria-hidden="true"></i>
             </a>
           </div>
         </div>
