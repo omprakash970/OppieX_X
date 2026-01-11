@@ -1,11 +1,11 @@
 import React from "react";
+import Hero from "./Hero";
 
 function Support() {
   return (
-    <div className="container py-5">
-      <h1 className="mb-3">Support</h1>
-      <p className="text-muted">This is the Support page placeholder.</p>
-    </div>
+  <>
+  <Hero />
+  </>
   );
 }
 
