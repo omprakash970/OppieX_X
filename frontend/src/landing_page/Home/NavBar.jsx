@@ -1,78 +1,54 @@
 function NavBar() {
   return (
     <>
-      <div className="container">
-        <nav style={{ backgroundColor: "#ffffff" }} className="navbar navbar-expand-lg border-bottom">
-          <div className="container-fluid">
-            <a className="navbar-brand" href="#">
-              <img src="/Media/Gemini_Generated_Image_5b2zim5b2zim5b2z-removebg-preview.png" alt="OppieX Logo" style={{ height: "40px" }} />
-            </a>
-            <button
-              className="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span className="navbar-toggler-icon"></span>
-            </button>
-            <div className="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">
-                    Home
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#">
-                    Link
-                  </a>
-                </li>
-                <li className="nav-item dropdown">
-                  <a
-                    className="nav-link dropdown-toggle"
-                    href="#"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Dropdown
-                  </a>
-                  <ul className="dropdown-menu">
-                    <li>
-                      <a className="dropdown-item" href="#">
-                        Action
-                      </a>
-                    </li>
-                    <li>
-                      <a className="dropdown-item" href="#">
-                        Another action
-                      </a>
-                    </li>
-                    <li>
-                      <hr className="dropdown-divider" />
-                    </li>
-                    <li>
-                      <a className="dropdown-item" href="#">
-                        Something else here
-                      </a>
-                    </li>
-                  </ul>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link disabled" aria-disabled="true" href="#">
-                    Disabled
-                  </a>
-                </li>
-              </ul>
-            
-             
-            </div>
+      <nav className="navbar navbar-expand-lg border-bottom bg-white ">
+        <div className="container">
+          
+          {/* Logo */}
+          <a className="navbar-brand" href="#">
+            <img
+              src="/Media/Gemini_Generated_Image_5b2zim5b2zim5b2z-removebg-preview.png"
+              alt="OppieX Logo"
+              style={{ height: "35px" }}
+            />
+          </a>
+
+          {/* Mobile toggle */}
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
+
+          {/* Menu */}
+          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul className="navbar-nav ms-auto align-items-center gap-3">
+              <li className="nav-item">
+                <a className="nav-link" href="#">Signup</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">About</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">Products</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">Pricing</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">Support</a>
+              </li>
+              <li className="nav-item">
+                <i class="fa fa-list-ul" aria-hidden="true"></i>
+              </li>
+            </ul>
           </div>
-        </nav>
-      </div>
+
+        </div>
+      </nav>
     </>
   );
 }

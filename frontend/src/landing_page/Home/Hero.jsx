@@ -16,12 +16,14 @@ function Hero() {
           style={{
             width: "25%",
             margin: "0 auto",
-            borderRadius: "15px",
+            borderRadius: "8px",
             padding: "5px",
             color: "white",
+             backgroundColor:"#2e85ff",
+             fontStyle:"bold"
           }}
         >
-          SignUp
+          Sign up for Free
         </button>
       </div>
     </div>
