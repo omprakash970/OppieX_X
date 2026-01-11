@@ -14,11 +14,11 @@ function Footer() {
         {/* centered content */}
         <div className="container" style={{ padding: "30px" }}>
           <div className="row">
-            <div className="col-12 col-md-3">
+            <div className="col-12 col-md-4 col-lg-4">
               <img
                 src="/Media/Gemini_Generated_Image_5b2zim5b2zim5b2z-removebg-preview.png"
                 alt="OppieX Logo"
-                className="mb-3 img-fluid"
+                className="mb-3 img-fluid border-bottom "
                 style={{ height: "40px" }}
               />
               {/* Social icons */}
@@ -52,9 +52,16 @@ function Footer() {
               </p>
             </div>
 
-            <div className="col-12 col-md-3">
+            <div className="col-12 col-md-4 col-lg-2">
               <p>Account</p>
-              <ul style={{ listStyleType: "none", paddingLeft: 0, paddingTop: "10px" }}>
+              <ul
+                style={{
+                  listStyleType: "none",
+                  paddingLeft: 0,
+                  paddingTop: "10px",
+                  fontSize: "12px",
+                }}
+              >
                 <li className="mb-2" style={{ padding: "2px", color: " #666" }}>
                   <a href="#">Open demat account</a>
                 </li>
@@ -82,9 +89,16 @@ function Footer() {
               </ul>
             </div>
 
-            <div className="col-12 col-md-3">
+            <div className="col-12 col-md-4 col-lg-2">
               <p>Support</p>
-              <ul style={{ listStyleType: "none", paddingLeft: 0, paddingTop: "10px" }}>
+              <ul
+                style={{
+                  listStyleType: "none",
+                  paddingLeft: 0,
+                  paddingTop: "10px",
+                  fontSize: "12px",
+                }}
+              >
                 <li className="mb-2" style={{ padding: "2px", color: " #666" }}>
                   <a href="#">Contact us</a>
                 </li>
@@ -112,36 +126,16 @@ function Footer() {
               </ul>
             </div>
 
-            <div className="col-12 col-md-3">
-              <p>Quick Links</p>
-              <ul style={{ listStyleType: "none", paddingLeft: 0, paddingTop: "10px" }}>
-                <li className="mb-2" style={{ padding: "2px", color: " #666" }}>
-                  <a href="#">Upcoming IPOs</a>
-                </li>
-                <li className="mb-2" style={{ padding: "2px", color: " #666" }}>
-                  <a href="#">Brokerage charges</a>
-                </li>
-                <li className="mb-2" style={{ padding: "2px", color: " #666" }}>
-                  <a href="#">Market holidays</a>
-                </li>
-                <li className="mb-2" style={{ padding: "2px", color: " #666" }}>
-                  <a href="#">Economic calendar</a>
-                </li>
-                <li className="mb-2" style={{ padding: "2px", color: " #666" }}>
-                  <a href="#">Calculators</a>
-                </li>
-                <li className="mb-2" style={{ padding: "2px", color: " #666" }}>
-                  <a href="#">Markets</a>
-                </li>
-                <li className="mb-2" style={{ padding: "2px", color: " #666" }}>
-                  <a href="#">Sectors</a>
-                </li>
-              </ul>
-            </div>
-
-            <div className="col">
-              <p>Quick Links</p>
-              <ul style={{ listStyleType: "none", paddingLeft: 0, paddingTop: "10px" }}>
+            <div className="col-12 col-md-4 col-lg-2">
+              <p>Company</p>
+              <ul
+                style={{
+                  listStyleType: "none",
+                  paddingLeft: 0,
+                  paddingTop: "10px",
+                  fontSize: "12px",
+                }}
+              >
                 <li className="mb-2" style={{ padding: "2px", color: " #666" }}>
                   <a href="#">About</a>
                 </li>
@@ -162,6 +156,40 @@ function Footer() {
                 </li>
                 <li className="mb-2" style={{ padding: "2px", color: " #666" }}>
                   <a href="#">Open source</a>
+                </li>
+              </ul>
+            </div>
+
+            <div className="col-12 col-md-4 col-lg-2">
+              <p>Quick Links</p>
+              <ul
+                style={{
+                  listStyleType: "none",
+                  paddingLeft: 0,
+                  paddingTop: "10px",
+                  fontSize: "12px",
+                }}
+              >
+                <li className="mb-2" style={{ padding: "2px", color: " #666" }}>
+                  <a href="#">Upcoming IPOs</a>
+                </li>
+                <li className="mb-2" style={{ padding: "2px", color: " #666" }}>
+                  <a href="#">Brokerage charges</a>
+                </li>
+                <li className="mb-2" style={{ padding: "2px", color: " #666" }}>
+                  <a href="#">Market holidays</a>
+                </li>
+                <li className="mb-2" style={{ padding: "2px", color: " #666" }}>
+                  <a href="#">Economic calendar</a>
+                </li>
+                <li className="mb-2" style={{ padding: "2px", color: " #666" }}>
+                  <a href="#">Calculators</a>
+                </li>
+                <li className="mb-2" style={{ padding: "2px", color: " #666" }}>
+                  <a href="#">Markets</a>
+                </li>
+                <li className="mb-2" style={{ padding: "2px", color: " #666" }}>
+                  <a href="#">Sectors</a>
                 </li>
               </ul>
             </div>
