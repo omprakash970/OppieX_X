@@ -1,17 +1,18 @@
+import { Link } from "react-router-dom";
+
 function NavBar() {
   return (
     <>
       <nav className="navbar navbar-expand-lg border-bottom bg-white ">
         <div className="container">
           {/* Logo */}
-          <a className="navbar-brand" href="#">
+          <Link className="navbar-brand" to="/">
             <img
               src="/Media/Gemini_Generated_Image_5b2zim5b2zim5b2z-removebg-preview.png"
               alt="OppieX Logo"
               style={{ height: "35px" }}
             />
-          
-          </a>
+          </Link>
 
           {/* Mobile toggle */}
           <button
@@ -27,29 +28,29 @@ function NavBar() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto align-items-center gap-3">
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" to="/signup">
                   Signup
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" to="/about">
                   About
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" to="/products">
                   Products
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" to="/pricing">
                   Pricing
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" to="/support">
                   Support
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
                 <i className="fa fa-bars" aria-hidden="true"></i>
