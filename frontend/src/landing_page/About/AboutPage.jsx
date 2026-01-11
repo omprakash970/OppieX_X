@@ -7,7 +7,7 @@ function AboutPage() {
     <>
       <Hero />
 
-      <Footer />
+  
     </>
   );
 }

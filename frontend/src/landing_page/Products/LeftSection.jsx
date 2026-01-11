@@ -4,20 +4,19 @@ function LeftSection({
   imageURL,
   productName,
   productDescription,
-
   googlePlay,
 appStore,
 }) {
   return (
     <>
-      <div className="container">
+      <div className="container mb-5">
         <div className="row">
           <div className="col-8 text-center">
             <img src={imageURL}></img>
           </div>
           <div className="col-4 text-left p-3">
             <h5>{productName}</h5>
-            <p>
+            <p className="mt-4 mb-4">
               {productDescription}
               
             </p>

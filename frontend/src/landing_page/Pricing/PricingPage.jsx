@@ -1,12 +1,14 @@
 import React from "react";
-
+import Brokerage from "./Brokerage";
+import Hero1 from "./Hero1";
 function PricingPage() {
-  return (
-    <div className="container py-5">
-      <h1 className="mb-3">Pricing</h1>
-      <p className="text-muted">This is the Pricing page placeholder.</p>
-    </div>
-  );
-}
+    return (
 
+        <>
+       <Hero1/>
+       
+
+        </>
+    );
+}
 export default PricingPage;
