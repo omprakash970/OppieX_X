@@ -9,6 +9,7 @@ function Footer() {
           backgroundColor: "whitesmoke",
           marginTop: "50px",
           width: "100%",
+          position:"fixed"
         }}
       >
         {/* centered content */}
